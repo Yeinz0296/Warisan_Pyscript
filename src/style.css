@@ -1,8 +1,44 @@
 body {
-    background: rgba(230, 230, 230, 0.7);
-  }
-
+  background: rgba(230, 230, 230, 0.7);
+}
 
 h1{
-    color: rgb(92, 122, 234);
+  color: rgba(92, 122, 234, 0.8);
+  text-align: center;
+  font-family: monospace !important;
+}
+
+p{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: monospace !important;
+}
+
+.wrapper {
+  height: 100vh;
+  /*This part is important for centering*/
+  display: grid;
+  place-items: center;
+}
+
+.typing {
+  width: 15ch;
+  animation: typing 2s steps(15), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
 }
