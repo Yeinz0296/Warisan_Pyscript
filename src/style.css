@@ -9,14 +9,12 @@ h1{
 }
 
 p{
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 10px;
   font-family: monospace !important;
 }
 
 .wrapper {
   height: 100vh;
-  /*This part is important for centering*/
   display: grid;
   place-items: center;
 }

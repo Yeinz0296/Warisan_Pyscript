@@ -11,41 +11,28 @@
     <link rel="stylesheet" href="src/style.css">
     <!-- #CSS -->
 
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
 </head>
 
 <body>
     <div class="container">
         <!-- Nav -->
-        <ul class="nav nav-pills nav-justified">
-            <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle " data-bs-toggle="dropdown" href="#tools" role="button" aria-expanded="false">Tools</a>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="tools/calculator.html">Calculator</a></li>
-                <li><a class="dropdown-item" href="#period calculator">Period Calculator</a></li>
-                <li><a class="dropdown-item" href="#random password generator">Random Password Generator</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#source">Source</a></li>
-            </ul>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="tutorial">Tutorial</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="pages/about.html">About Me</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="pages/followme.html">Follow Me</a>
-            </li>
-        </ul>
+        <div id="nav-placeholder">
+
+        </div>
+        
+        <script>
+          $(function(){
+            $("#nav-placeholder").load("src/nav.html");
+          });
+        </script>
         <!-- #Nav -->
 
         <!-- Home -->
         <div class="wrapper">
             <div class="typing">
-              Selamat Datang
+              Selamat Datang.
             </div>
         </div>
         <!-- #Home -->
