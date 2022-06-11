@@ -13,6 +13,11 @@ p{
   font-family: monospace !important;
 }
 
+.ImgText{
+  float: left; 
+  width: calc(100% - 350px - 10px); 
+}
+
 .wrapper {
   height: 100vh;
   display: grid;
